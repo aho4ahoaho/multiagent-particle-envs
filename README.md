@@ -3,6 +3,13 @@
 このリポジトリは[multiagent-particle-envs
 ](https://github.com/openai/multiagent-particle-envs)をフォークし、gym を利用していた箇所を[gymnasium](https://github.com/Farama-Foundation/Gymnasium)に置き換えたものです。
 
+## 注意事項
+
+### レンダリング関連
+
+- 仮想ディスプレイが必要な場合がある。その場合は`xvfb-run -s "-screen 0 1400x900x24"`などを使う。
+- pyglet は 1.5.27 で動作確認している。
+
 **Status:** Archive (code is provided as-is, no updates expected)
 
 # Maintained Fork
